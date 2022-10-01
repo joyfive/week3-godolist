@@ -1,7 +1,7 @@
 
 import './App.css';
 
-function Btn(props) {
+function Btn({ text }) {
   return <button style={{
     backgroundColor: "tomato",
     color:"white",
@@ -9,7 +9,7 @@ function Btn(props) {
     border: 0,
     borderRadius: 10,
   }}>
-    {props.text}
+    {text}
     </button>
 }
 function App() {
