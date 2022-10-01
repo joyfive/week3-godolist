@@ -1,13 +1,14 @@
+import PropTypes from "prop-types";
+import sytles from "./Button.module.css";
+
 function Btn({ text }) {
-    return <button style={{
-      backgroundColor: "tomato",
-      color:"white",
-      padding: "10px 20px",
-      border: 0,
-      borderRadius: 10,
-    }}>
+    return <button className={styles.btn}>
       {text}
       </button>
   }
+
+  Btn.propTypes = {
+    text: PropTypes.string.isRequired,
+  };
 
   export default Btn;
