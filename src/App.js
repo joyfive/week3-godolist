@@ -7,8 +7,14 @@ function App() {
   const onChange = (event) => setKeyword(event.target.value);
   console.log('I run all the time.');
   useEffect(() => {
-    console.log('CALL THE API...');
+    console.log('I run only once');
   }, []);
+  useEffect(() => {
+    console.log("I run when 'keyword' changes.");
+  }, [keyword]);
+  useEffect(() => {
+    console.log("I run when 'counter' changes.");
+  }, [counter]);
   return (
   <div>
     <input 
@@ -18,7 +24,7 @@ function App() {
       placeholer="Search here..."
     />
     <h1>{counter}</h1>
-    <button onChange={onClick}>click me</button>
+    <button onClick={onClick}>click me</button>
   </div>
   );
 }
