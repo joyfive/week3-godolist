@@ -1,0 +1,54 @@
+.todo-container {
+    display: flex;
+    flex-direction: column;
+
+    width: 20%;
+    /* height: 150px; */
+    border: 0;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+  
+.todo-tit {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.todo-body {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+  .btn-set{
+    display: flex;
+    gap: 10px;
+    margin-top: 32px;
+  }
+  
+  .btn {
+    border: 1px solid #3c4043;
+    background-color: #f8f9fa;
+    width: 50%;
+    height: 32px;
+    border-radius: 5px; 
+    cursor: pointer;
+  }
+  
+  .del:hover {
+    border: 0;
+    background-color: #ea4335;
+    color: #fff;
+  }
+  
+ .done:hover {
+    border: 0;
+    background-color: #4285f4;
+    color: #fff;
+  }
+  .cancel:hover {
+    border: 0;
+    background-color: #fbbc05;
+    color: #fff;
+  }
