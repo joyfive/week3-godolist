@@ -25,14 +25,16 @@ const TodoList = () => {
            body: "각 컴포넌트의 기능을 구현하고 동작을 실행해보자!",
            isDone: false,
          },
-       ] );
+       ]);
 
        return (
+        <div>
         <Layout>
           <Header />
           <Form setTodos={setTodos} todos={todos} />
           <List todos={todos} setTodos={setTodos} />
         </Layout>
+        </div>
       );
     };
     

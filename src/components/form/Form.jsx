@@ -18,15 +18,11 @@ function Form({ setTodos, todos }) {
     setTodo({ ...todo, [name]: value });
   };
 
-  const onReset = (event) => {
-    const { value } = event.target
-    setTodo({ ...todo, [value]: "" });
-  };
+  const onReset = () => setTodo("");
 
   const onSubmit = (event) => {
     event.preventDefault();
-    if (todo.title.trim() === "" || todo.body.trim() === "") 
-    return;
+    if (todo.title.trim() === "" || todo.body.trim() === "") return;
     setTodos([...todos, { ...todo, id: number }]);
     setTodo(todoItem);
     number++;

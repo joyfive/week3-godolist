@@ -16,8 +16,8 @@ function Todo({ todo, onEdit, onDelete }) {
               >❌ 삭제</button>
               <button 
               onClick={() => onEdit(todo.id)} 
-              className={"btn" + (this.state.isDone ? "cancel" : "done")}>
-              {this.state.isDone ? '🚫 취소' : '⭕️ 완료' }
+              className={todo.isDone ? "btn cancel" : "btn done"}>
+              {todo.isDone ? '🚫 취소' : '⭕️ 완료' }
               </button>
           </div>
 
