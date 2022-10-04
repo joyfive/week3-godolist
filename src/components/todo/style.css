@@ -13,8 +13,8 @@
   
 .todo-tit {
     font-size: 1.1rem;
-    font-weight: 700;
-    margin-bottom: 10px;
+    font-weight: 600;
+    margin-bottom: 16px;
 }
 .todo-body {
     font-size: 0.9rem;
@@ -28,7 +28,10 @@
   }
   
   .btn {
-    border: 1px solid #3c4043;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: 0;
+    color: #3c4043;
     background-color: #f8f9fa;
     width: 50%;
     height: 32px;
@@ -38,17 +41,17 @@
   
   .del:hover {
     border: 0;
-    background-color: #ea4335;
+    background-color: #ff6c5f;
     color: #fff;
   }
   
  .done:hover {
     border: 0;
-    background-color: #4285f4;
+    background-color: #5993f0;
     color: #fff;
   }
   .cancel:hover {
     border: 0;
-    background-color: #fbbc05;
-    color: #fff;
+    background-color: #ffe189;
+
   }

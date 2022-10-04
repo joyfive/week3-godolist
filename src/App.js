@@ -1,14 +1,8 @@
-import React from 'react';
-import TodoList from './pages/TodoList';
+import React from "react";
+import TodoList from "./pages/TodoList";
 
-function App() { 
-  return (
-    <React.StrictMode>
-    <TodoList />
-  </React.StrictMode>
-
-  );
+function App() {
+  return <TodoList />;
 }
- 
 
 export default App;
