@@ -6,7 +6,8 @@ function Header() {
     <div className="container">
       <div>My Todo List</div>
       <div className="cont-right">
-        <div>joyfive</div><div className="head-ico">JOY</div>
+        <div>joyfive</div>
+        <div onClick={() => window.open('https://github.com/joyfive', '_blank')} className="head-ico">JOY</div>
       </div>
     </div>
   );
