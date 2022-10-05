@@ -1,4 +1,7 @@
 # Welcome to REACT! Second React.app 😎
+![](https://velog.velcdn.com/images/joyfive/post/01804c0a-4bbf-4949-ac0f-d77da3c7f707/image.crdownload)
+![](https://velog.velcdn.com/images/joyfive/post/3471c929-f7dc-4ac7-8ef5-93d00503f5ef/image.gif)
+▶️[Go to Project](https://w3-godolist.vercel.app/)
 
 ## 페이지 소개
 리액트의 기본 기능을 연습하고 state 개념을 다잡기 위한 1page 투두리스트 웹앱
@@ -7,7 +10,7 @@
 - 추가된(등록된) 투두아이템의 삭제기능, 완료/취소 기능
 
 ## 기술 스택
-- CSS / REACT(JS, JSX) / netlify
+- CSS / REACT(JS, JSX) / vercel
 
 ## 구현 기능
 ### 기능1: Add 버튼
