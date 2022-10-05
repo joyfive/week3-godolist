@@ -3,11 +3,21 @@
     flex-direction: column;
     width: 20%;
     /* height: 150px; */
-    border: 0;
-    border-radius: 10px;
     background-color: #f8f9fa;
+    border-radius: 10px;
     padding: 20px;
     min-height: 130px;
+}
+
+.new-container {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  /* height: 150px; */
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 130px;
 }
 
   
@@ -60,18 +70,27 @@
 @media  screen and (max-width: 1210px) {
   .todo-container {
     width: 26%;
-}
+  }
+  .new-container {
+    width: 26%;
+  }
 }
 
 @media screen and (max-width:820px) {
   .todo-container {
     width: 40%;
-}
+  }
+  .new-container {
+    width: 40%;
+  }
 
 }
 @media screen and (max-width:580px) {
   .todo-container {
     width: 100%;
-}
+  }
+  .new-container {
+    width: 100%;
+  }
 
 }
