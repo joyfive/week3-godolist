@@ -6,7 +6,7 @@ function Todo({ todo, onEdit, onDelete }) {
  return (
         <div className="todo-container">
           <div className="todo-cont">
-              <div className="todo-tit">✅ {todo.title}</div>
+              <div className="todo-tit">{todo.title}</div>
               <div className="todo-body">{todo.body}</div>
           </div>
           <div className="btn-set">

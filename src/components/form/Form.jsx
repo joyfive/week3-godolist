@@ -18,7 +18,13 @@ function Form({ setTodos, todos }) {
     setTodo({ ...todo, [name]: value });
   };
 
-  const onReset = () => setTodo("");
+  const onReset = (e) => {
+    setTodo({
+      title: "",
+      body: "",
+    });
+  };
+
 
   const onSubmit = (event) => {
     event.preventDefault();
