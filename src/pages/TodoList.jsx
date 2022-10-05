@@ -3,7 +3,6 @@ import Layout from "../components/layout/Layout";
 import Header from "../components/header/Header";
 import Form from "../components/form/Form";
 import List from "../components/list/List";
-import Footer from "../components/footer/Footer";
 
 
 const TodoList = () => {
@@ -34,7 +33,6 @@ const TodoList = () => {
           <Header />
           <Form setTodos={setTodos} todos={todos} />
           <List todos={todos} setTodos={setTodos} />
-          <Footer />
         </Layout>
         </div>
       );
