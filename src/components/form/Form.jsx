@@ -41,22 +41,26 @@ function Form({ setTodos, todos }) {
       </div>
       <div className="input-container">
         <div className="input-box">
-          <label className="label-txt">제목</label>
-          <input
-            type="text"
-            name="title"
-            value={todo.title}
-            onChange={onChange}
-            className="input-txt"
-          />
-          <label className="label-txt">내용</label>
-          <input
-            type="text"
-            name="body"
-            value={todo.body}
-            onChange={onChange}
-            className="input-txt"
-          />
+          <div className="input-line">
+            <label className="label-txt">제목</label>
+            <input
+              type="text"
+              name="title"
+              value={todo.title}
+              onChange={onChange}
+              className="input-txt"
+            />
+          </div>
+          <div className="input-line">
+            <label className="label-txt">내용</label>
+            <input
+              type="text"
+              name="body"
+              value={todo.body}
+              onChange={onChange}
+              className="input-txt"
+            />
+          </div>
         </div>
         <div className="btngroup">
           <button type="submit" form="add" className="form-btn" >추가하기</button>

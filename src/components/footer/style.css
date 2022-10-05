@@ -1,0 +1,10 @@
+.footer-bar {
+    bottom: 0;
+    width: 100%;
+    line-height: 40px;
+    background-color: #f2f2f2;
+    margin-top: 80px;
+    text-align: center;
+    color: #202124;
+    font-size: 13px;
+}

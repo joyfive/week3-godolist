@@ -1,13 +1,13 @@
 .todo-container {
     display: flex;
     flex-direction: column;
-
     width: 20%;
     /* height: 150px; */
     border: 0;
     border-radius: 10px;
     background-color: #f8f9fa;
     padding: 20px;
+    min-height: 130px;
 }
 
   
@@ -53,6 +53,25 @@
   .cancel:hover {
     border: 0;
     box-shadow: 1px 1px 5px 2px #e9d393;
-    color: #121212;
+    color: #53524e;
 
   }
+
+@media  screen and (max-width: 1210px) {
+  .todo-container {
+    width: 26%;
+}
+}
+
+@media screen and (max-width:820px) {
+  .todo-container {
+    width: 40%;
+}
+
+}
+@media screen and (max-width:580px) {
+  .todo-container {
+    width: 100%;
+}
+
+}
