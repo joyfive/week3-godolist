@@ -11,16 +11,8 @@ function List({ todos, setTodos }) {
   };
   const onEdit = (todoId) => {
     const todoItem = todos.map((todo) => {
-      if (todo.id === todoId) {
-        return {
-          ...todo,
-          isDone: !todo.isDone,
-        }
-      }
-      else {
-        return { ...todo };
-      }
-        
+      return (todo.id === todoId ? {...todo, isDone: !todo.isDone,} :  {...todo} )
+
     });
     setTodos(todoItem);
   };
