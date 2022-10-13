@@ -2,7 +2,7 @@
 ![](https://velog.velcdn.com/images/joyfive/post/01804c0a-4bbf-4949-ac0f-d77da3c7f707/image.crdownload)
 
 ![](https://velog.velcdn.com/images/joyfive/post/3471c929-f7dc-4ac7-8ef5-93d00503f5ef/image.gif)
-
+<hr />
 ▶️[Go to Project](https://w3-godolist.vercel.app/)
 
 ## 페이지 소개
